@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Astrovebinar</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+SC&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="heading">
+        <h1>Астрология - путь к себе!</h1>
+        <h2>Вебинар - погружение</h2>
+    </div>
+    <div class="heading1">
+        <h5>До начала осталось:</h5>
+    </div>
+    <div class="container">
+        <div class="time">
+            <div class="block">
+                <h3>Дней</h3>
+                <h4 class="days"></h4>
+            </div>
+        </div>
+        <div class="time">
+            <div class="block">
+                <h3>Часов</h3>
+                <h4 class="hours"></h4>
+            </div>
+        </div>
+        <div class="time">
+            <div class="block">
+                <h3>Минут</h3>
+                <h4 class="minutes"></h4>
+            </div>
+        </div>
+        <div class="time">
+            <div class="block">
+                <h3>Секунд</h3>
+                <h4 class="seconds"></h4>
+            </div>
+        </div>
+    </div>
+    <div class="heading2">
+        <p class="date">Регистрируйся и получи подарок на эл.почту</p>
+        <p class="date">Вебинар 10 мая 2023 в 18:00</p>
+    </div>
+    <form
+    action="https://formspree.io/f/mgebdvbl"
+    method="POST">
+    <input type="hidden" name="_language" value="ru">
+    <div class="heading3">
+        <label>Ваша эл.почта:
+            <input class="form1" type="email" name="_replyto" placeholder="Ваша эл.почта..." required="">
+        </label>
+    </div>
+    <div class="heading3">
+        <label>Ваше имя:
+            <textarea class="form2" name="message" placeholder="Ваше имя..." required=""></textarea>
+        </label>
+    </div>
+    <div class="heading3">
+        <button class="btn" type="submit">Регистрация</button>
+    </div>
+    </form>
+    <div class="heading1">
+        <img class="main" id="planet" src="planet2.jpeg" width="100%">
+    </div>
+    <div class="heading1">
+        <button class="btn2" id="submit">Нажми и увидишь свой подарок</button>
+    </div>
+    
+    <a href="guide.html">ссылка</a>
+    
+    <script src="script.js"></script>
+</body>
+</html>

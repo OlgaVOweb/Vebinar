@@ -1,0 +1,217 @@
+body{
+    background-image: url(8.png);
+}
+.heading{
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    font-size: 60px;
+    color: #fcf489;
+    align-self: center;
+    font-family: 'Alegreya SC', serif;
+    margin: 5px;
+}
+h2{
+    font-size: 60px;
+    color:#fcf489;
+    align-self: center;
+    font-family: 'Alegreya SC', serif;
+    margin: 5px;
+}
+.heading1{
+    display: flex;
+    justify-content: center;
+}
+h5{
+    font-size: 30px;
+    color:#fcf489;
+    align-self: center;
+    font-family: 'Alegreya SC', serif;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.time{
+    margin: 10px;
+    height: 250px;
+    width: 150px;
+    border: 3px #fcf489 solid;
+}
+.block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h3{
+    font-size: 30px;
+    color: #fcf489;
+    font-family: 'Alegreya SC', serif;
+    margin-top: 40px;
+}
+.days, .hours, .minutes, .seconds{
+    font-size: 50px;
+    color: #fcf489;
+    font-family: 'Alegreya SC', serif;
+    margin-top: 30px;
+}
+.astro{
+    font-size: 40px;
+    color:#fa6f1f;
+    align-self: center;
+    font-family: 'Alegreya SC', serif;
+}
+.heading2{
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.date{
+    font-size: 30px;
+    color: #fcf489;
+    font-family: 'Alegreya SC', serif;
+    margin: 5px;
+}
+.heading3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+label{
+    font-size: 20px;
+    color: #fcf489;
+    font-family: 'Alegreya SC', serif;
+}
+.btn{
+    background-color: #fcf489;
+    color:#291510 ;
+    font-family: 'Alegreya SC', serif;
+    font-size: 30px;
+    padding: 10px;
+    margin: 10px;
+}
+.btn2{
+    color:#fcf489 ;
+    font-family: 'Alegreya SC', serif;
+    font-size: 30px;
+    padding: 10px;
+    margin-top: 50px;
+    background-color: #291510;
+    border: none;
+}
+.form1{
+    background-color: #fcf489;
+    color: #291510;
+    padding: 12px 20px;
+    margin: 5px;
+}
+.form2{
+    background-color: #fcf489;
+    color: #291510;
+    padding-left: 10px;
+    margin-left: 20px;
+}
+.main {
+    display: none;
+    margin: 20px;
+    }
+
+.guide{
+    color:#fcf489 ;
+    font-family: 'Alegreya SC', serif;
+    font-size: 30px;
+}
+.containerguide{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.box{
+    width: 210px;
+    height: 410px;
+    margin: 15px;
+}
+
+p{
+    color:#fcf489 ;
+    font-family: 'Alegreya SC', serif;
+    font-size: 17px;
+}
+h6{
+    color:#fcf489 ;
+    font-family: 'Alegreya SC', serif;
+    font-size: 20px;
+    margin:50px 5px 5px 5px;
+}
+ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px;
+}
+li{
+    color:#fcf489 ;
+    font-family: 'Alegreya SC', serif;
+    font-size: 20px;
+}
+a{
+    color: #291510;
+}
+
+@media all and (max-width: 800px){
+    h1, h2 {
+        font-size: 50px;
+    }
+}
+@media all and (max-width: 500px){
+    h1, h2 {
+        font-size: 25px;
+    }
+    h5{
+        font-size: 20px;
+    }
+    .days, .hours, .minutes, .seconds{
+        font-size: 30px;
+        margin-top: 10px;
+    }
+    h3{
+        font-size: 20px;
+    }
+    .astro{
+        font-size: 20px;
+    }
+    .time{
+        margin: 10px;
+        height: 150px;
+        width: 100px;
+        border: 3px #fcf489 solid;
+    }
+    .date{
+        font-size: 20px;
+    }
+    label{
+        font-size: 15px;
+    }
+    .btn{
+        width: 90%;
+        font-size: 22px;
+        margin-top: 15px;
+    }
+    .btn2{
+        width: 90%;
+        font-size: 20px;
+    }
+    .guide{
+        font-size: 20px;
+    }
+    p{
+        font-size: 15px;
+    }
+    h6{
+        font-size: 15px;
+    }
+}
