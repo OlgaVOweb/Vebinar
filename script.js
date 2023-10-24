@@ -1,5 +1,5 @@
 function vebinarCountdown(){
-    const vebinarDate = new Date('May 10, 2023 18:00');
+    const vebinarDate = new Date('May 10, 2024 18:00');
     const now = new Date ();
     const diff = vebinarDate - now;
 
